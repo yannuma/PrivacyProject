@@ -1,0 +1,5 @@
+Model Encoding:
+
+Model_S 
+Neural Network without Privacy Tools
+lr=0.001, batch size=64, epochs=20 with accuracy=0.636863211050052
