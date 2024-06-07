@@ -1,5 +1,17 @@
 Model Encoding:
 
 Model_S 
-Neural Network without Privacy Tools
+SGD without Privacy Tools:
 lr=0.001, batch size=64, epochs=20 with accuracy=0.636863211050052
+
+Model_E
+Neural Network with DPSGD:
+epsilon=20, lr=0.001, batch size=128, epochs=20 with accuracy=0.5512401604039804
+
+Model_X
+Neural Network with DPSGD:
+epsilon= 10, lr=0.001, batch size=128, epochs=20 with accuracy=0.5336402792217436
+
+Model_Y
+Neural Network with DPSGD:
+epsilon=1, lr=0.001, batch size=64, epochs=20 with accuracy=0.45061636714688846
